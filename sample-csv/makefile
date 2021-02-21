@@ -11,7 +11,7 @@ BLAZE_GRAPH_HOME="/home/ubuntu"
 #loaddata: techUSA.nt	
 #	java -cp $(BLAZE_GRAPH_HOME)/blazegraph.jar com.bigdata.rdf.store.DataLoader -namespace test $<
 	
-table_2.nt:sample-2.sparql table_2.csv
+table_2.nt:sample-arsenal-table_2.sparql table_2.csv
 	tarql --ntriples $^ > $@
 clean:	
 	rm -rf *.nt
