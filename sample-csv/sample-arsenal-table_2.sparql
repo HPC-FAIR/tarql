@@ -1,0 +1,20 @@
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?Player_iri a dbo:SoccerPlayer;
+    dbp:number ?number;
+    dbp:birthPlace ?b_iri;
+    dbp:position ?Position_iri;
+}
+FROM <file:table_2.csv> 
+WHERE {
+# ?No is the number of the player in the team which is an integer  
+  BIND (xsd:integer(?No) AS ?number)
+# the last column is the main entity in each row which is a dbo:SoccerPlayer
+  BIND (IRI(?Player) AS ?Player_iri)
+# the second column doesn’t contain a column name, so name ?b is assigned by default  
+  BIND (IRI(?b) AS ?b_iri)
+  BIND (IRI(?Position) as ?Position_iri)
+}
