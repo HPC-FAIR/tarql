@@ -1,7 +1,7 @@
-all: techUSA.nt table_2.nt
+all: techUSA.nt soccer-player.nt
 
 # the order of sparql and csv files is important
-techUSA.nt:sample-2.sparql TechCrunchcontinentalUSA.csv
+techUSA.nt:soccer-player.sparql TechCrunchcontinentalUSA.csv
 	tarql --ntriples $^ > $@
 
 # Blazegraph organize info using namespaces
@@ -11,7 +11,7 @@ BLAZE_GRAPH_HOME="/home/ubuntu"
 #loaddata: techUSA.nt	
 #	java -cp $(BLAZE_GRAPH_HOME)/blazegraph.jar com.bigdata.rdf.store.DataLoader -namespace test $<
 	
-table_2.nt:sample-arsenal-table_2.sparql table_2.csv
+soccer-player.nt:sample-soccer-player.sparql soccer-player.csv
 	tarql --ntriples $^ > $@
 clean:	
 	rm -rf *.nt

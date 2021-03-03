@@ -8,7 +8,7 @@ CONSTRUCT {
     dbp:birthPlace ?b_iri;
     dbp:position ?Position_iri;
 }
-FROM <file:table_2.csv> 
+FROM <file:soccer_player.csv> 
 WHERE {
 # ?No is the number of the player in the team which is an integer  
   BIND (xsd:integer(?No) AS ?number)
