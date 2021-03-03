@@ -4,17 +4,23 @@ PREFIX tableurl: <http://example.org/rodinia-nw-lassen.csv#>
 
 
 CONSTRUCT {
-  ?URI a hpc:record;
-    hpc:inputDataSize ?InputData;
+# using table URL +row id as the URI for each record
+  ?URI a hpc:TableRow;
+    hpc:inputDataSize ?InputDataInt;
     hpc:kernel ?Kernel;
     hpc:array ?Data;
     hpc:id ?DataID;
-    hpc:DRAMFreq ?DRAM Frequency;
+    hpc:DRAMFreq ?DRAM_Frequency;
 } 
 FROM <file:rodinia_3.1_cuda_nw_labelledData-lassen-plus-rowId.csv> 
 
 WHERE {
+ # combine table url and row Id as the URI
   BIND (URI(CONCAT('http://example.org/rodinia-nw-lassen.csv/', ?No)) AS ?URI)
-  BIND (xsd:integer(?numEmps) AS ?numEmployees)
-  BIND (xsd:decimal(?raisedAmt) AS ?amount)
+
+# convert inputData to integer inputDataSize
+  BIND (xsd:integer(?InputData) AS ?InputDataInt)
+
+# convert dram freq to decimal
+  BIND (xsd:decimal(?DRAMFrequency) AS ?DRAM_Frequency)
 }

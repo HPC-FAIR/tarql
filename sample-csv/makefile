@@ -13,5 +13,8 @@ BLAZE_GRAPH_HOME="/home/ubuntu"
 	
 soccer-player.nt:sample-soccer-player.sparql soccer-player.csv
 	tarql --ntriples $^ > $@
+
+rodinia_3.1_cuda_nw_labelledData-lassen-plus-rowId.nt:xplacer.sparql rodinia_3.1_cuda_nw_labelledData-lassen-plus-rowId.csv 
+	tarql --ntriples $^ > $@
 clean:	
 	rm -rf *.nt
