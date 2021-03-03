@@ -13,6 +13,7 @@ WHERE {
 # ?No is the number of the player in the team which is an integer  
   BIND (xsd:integer(?No) AS ?number)
 # the last column is the main entity in each row which is a dbo:SoccerPlayer
+# assign the Player column as the player_iri of this queery
   BIND (IRI(?Player) AS ?Player_iri)
 # the second column doesn’t contain a column name, so name ?b is assigned by default  
   BIND (IRI(?b) AS ?b_iri)
