@@ -22,5 +22,7 @@ soccer-player.nt:sample-soccer-player.sparql soccer-player.csv
 # 2. remove spaces in column names: SPARQL cannot handle them
 rodinia_3.1_cuda_nw_labelledData-lassen-plus-rowId.nt:xplacer.sparql rodinia_3.1_cuda_nw_labelledData-lassen-plus-rowId.csv 
 	tarql --ntriples $^ > $@
+# a shortcut
+xplacer:rodinia_3.1_cuda_nw_labelledData-lassen-plus-rowId.nt	
 clean:	
 	rm -rf *.nt

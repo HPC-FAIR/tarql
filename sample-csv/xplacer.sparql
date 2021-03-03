@@ -10,7 +10,9 @@ CONSTRUCT {
     hpc:kernel ?Kernel;
     hpc:array ?Data;
     hpc:id ?DataID;
-    hpc:DRAMFreq ?DRAM_Frequency;
+    hpc:DRAMFreq ?DRAMFrequencyDec;
+    hpc:Cycle ?ElapsedCyclesDec;
+    hpc:MemberOccupancy ?MemoryOccupancyPct;
 } 
 FROM <file:rodinia_3.1_cuda_nw_labelledData-lassen-plus-rowId.csv> 
 
@@ -22,5 +24,9 @@ WHERE {
   BIND (xsd:integer(?InputData) AS ?InputDataInt)
 
 # convert dram freq to decimal
-  BIND (xsd:decimal(?DRAMFrequency) AS ?DRAM_Frequency)
+  BIND (xsd:decimal(?DRAMFrequency) AS ?DRAMFrequencyDec)
+
+  BIND (xsd:decimal(?ElapsedCycles) AS ?ElapsedCyclesDec)
+
+  BIND (xsd:decimal(?MemoryPercentage) AS ?MemoryOccupancyPct)
 }
