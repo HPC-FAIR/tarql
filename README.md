@@ -20,15 +20,15 @@ There are a few sample csv files and the corresponding sparql configuration file
 
 First export path to tarql in your environment.
 
-Just type 
+After that, just type 
 ```
 cd sample-csv
 make all
 ```
 
-All RDF files will be generated from CSV files.
+All RDF files will be generated from sample CSV files.
 
-Reference output files are stored under
+Reference output RDF files (.nt files) are stored under
 
 ./sample-csv/referenceOutput
 
