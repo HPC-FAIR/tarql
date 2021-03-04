@@ -43,6 +43,6 @@ The generated file is .nt , notation3 or N3 syntax of RDF.
 
 https://rdf-translator.appspot.com/ can convert .nt file into json-ld or any other file formats.
 
-The online convert needs Input to be selected at N3. Automatic recognition may not work.
+The online convert needs Input to be selected as N3. Automatic recognition may not work.
 
  
