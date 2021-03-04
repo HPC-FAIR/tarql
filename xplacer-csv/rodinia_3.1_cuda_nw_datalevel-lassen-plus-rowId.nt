@@ -1,0 +1,1152 @@
+<http://example.org/rodinia-nw-lassen.csv/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/1> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "1024"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/1> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/1> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/1> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/1> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060402004" .
+<http://example.org/rodinia-nw-lassen.csv/1> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/1> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/1> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "4160.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/2> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "1024"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/2> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/2> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/2> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060600000" .
+<http://example.org/rodinia-nw-lassen.csv/2> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060a02004" .
+<http://example.org/rodinia-nw-lassen.csv/2> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/2> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/2> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "4160.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/3> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "10240"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/3> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/3> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/3> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/3> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200079014004" .
+<http://example.org/rodinia-nw-lassen.csv/3> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1202"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/3> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/3> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "409728.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/4> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "10240"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/4> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/4> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/4> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/4> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200099014004" .
+<http://example.org/rodinia-nw-lassen.csv/4> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1202"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/4> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/4> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "409728.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/5> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "10496"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/5> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/5> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/5> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/5> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20007a454804" .
+<http://example.org/rodinia-nw-lassen.csv/5> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1264"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/5> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/5> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "430464.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/6> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "10496"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/6> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/6> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/6> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/6> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009a454804" .
+<http://example.org/rodinia-nw-lassen.csv/6> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1264"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/6> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/6> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "430464.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/7> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "10752"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/7> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/7> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/7> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/7> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20007b915004" .
+<http://example.org/rodinia-nw-lassen.csv/7> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1326"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/7> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/7> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "451712.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/8> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "10752"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/8> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/8> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/8> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/8> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009b915004" .
+<http://example.org/rodinia-nw-lassen.csv/8> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1326"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/8> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/8> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "451712.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/9> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "11008"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/9> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/9> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/9> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/9> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20007ce55804" .
+<http://example.org/rodinia-nw-lassen.csv/9> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1390"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/9> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/9> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "473472.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/10> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "11008"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/10> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/10> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/10> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/10> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009ce55804" .
+<http://example.org/rodinia-nw-lassen.csv/10> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1390"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/10> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/10> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "473472.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/11> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "11264"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/11> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/11> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/11> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/11> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20007e416004" .
+<http://example.org/rodinia-nw-lassen.csv/11> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1454"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/11> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/11> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "495744.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/12> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "11264"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/12> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/12> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/12> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/12> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009e416004" .
+<http://example.org/rodinia-nw-lassen.csv/12> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1454"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/12> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/12> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "495744.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/13> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "11520"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/13> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/13> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/13> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/13> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20007fa56804" .
+<http://example.org/rodinia-nw-lassen.csv/13> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1522"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/13> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/13> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "518528.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/14> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "11520"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/14> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/14> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/14> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/14> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009fa56804" .
+<http://example.org/rodinia-nw-lassen.csv/14> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1522"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/14> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/14> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "518528.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/15> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "11776"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/15> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/15> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/15> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/15> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200081117004" .
+<http://example.org/rodinia-nw-lassen.csv/15> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1590"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/15> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/15> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "541824.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/16> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "11776"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/16> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/16> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/16> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/16> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000c1117004" .
+<http://example.org/rodinia-nw-lassen.csv/16> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1590"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/16> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/16> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "541824.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/17> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "12032"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/17> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/17> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/17> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/17> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200082857804" .
+<http://example.org/rodinia-nw-lassen.csv/17> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1660"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/17> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/17> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "565632.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/18> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "12032"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/18> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/18> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/18> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/18> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000c2857804" .
+<http://example.org/rodinia-nw-lassen.csv/18> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1660"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/18> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/18> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "565632.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/19> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "12288"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/19> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/19> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/19> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/19> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200084018004" .
+<http://example.org/rodinia-nw-lassen.csv/19> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1730"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/19> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/19> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "589952.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/20> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "12288"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/20> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/20> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/20> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/20> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000c4018004" .
+<http://example.org/rodinia-nw-lassen.csv/20> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1730"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/20> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/20> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "589952.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/21> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "12544"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/21> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/21> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/21> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/21> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200085858804" .
+<http://example.org/rodinia-nw-lassen.csv/21> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1804"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/21> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/21> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "614784.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/22> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "12544"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/22> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/22> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/22> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/22> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000c5858804" .
+<http://example.org/rodinia-nw-lassen.csv/22> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1804"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/22> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/22> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "614784.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/23> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "1280"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/23> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/23> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/23> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/23> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060642804" .
+<http://example.org/rodinia-nw-lassen.csv/23> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/23> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/23> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "6464.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/24> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "1280"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/24> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/24> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/24> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060800000" .
+<http://example.org/rodinia-nw-lassen.csv/24> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060e42804" .
+<http://example.org/rodinia-nw-lassen.csv/24> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/24> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/24> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "6464.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/25> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "12800"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/25> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/25> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/25> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/25> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200087119004" .
+<http://example.org/rodinia-nw-lassen.csv/25> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1878"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/25> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/25> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "640128.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/26> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "12800"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/26> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/26> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/26> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/26> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000c7119004" .
+<http://example.org/rodinia-nw-lassen.csv/26> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1878"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/26> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/26> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "640128.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/27> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "13056"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/27> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/27> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/27> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/27> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200088a59804" .
+<http://example.org/rodinia-nw-lassen.csv/27> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1954"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/27> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/27> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "665984.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/28> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "13056"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/28> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/28> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/28> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/28> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000c8a59804" .
+<http://example.org/rodinia-nw-lassen.csv/28> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1954"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/28> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/28> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "665984.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/29> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "13312"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/29> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/29> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/29> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/29> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20008a41a004" .
+<http://example.org/rodinia-nw-lassen.csv/29> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2030"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/29> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/29> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "692352.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/30> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "13312"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/30> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/30> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/30> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/30> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000ca41a004" .
+<http://example.org/rodinia-nw-lassen.csv/30> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2030"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/30> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/30> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "692352.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/31> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "13568"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/31> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/31> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/31> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/31> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20008be5a804" .
+<http://example.org/rodinia-nw-lassen.csv/31> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2110"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/31> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/31> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "719232.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/32> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "13568"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/32> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/32> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/32> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/32> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000cbe5a804" .
+<http://example.org/rodinia-nw-lassen.csv/32> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2110"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/32> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/32> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "719232.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/33> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "13824"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/33> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/33> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/33> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/33> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20008d91b004" .
+<http://example.org/rodinia-nw-lassen.csv/33> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2190"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/33> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/33> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "746624.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/34> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "13824"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/34> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/34> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/34> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/34> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000cd91b004" .
+<http://example.org/rodinia-nw-lassen.csv/34> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2190"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/34> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/34> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "746624.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/35> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "14080"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/35> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/35> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/35> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/35> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20008f45b804" .
+<http://example.org/rodinia-nw-lassen.csv/35> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2272"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/35> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/35> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "774528.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/36> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "14080"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/36> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/36> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/36> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/36> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000cf45b804" .
+<http://example.org/rodinia-nw-lassen.csv/36> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2272"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/36> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/36> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "774528.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/37> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "14336"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/37> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/37> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/37> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/37> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009101c004" .
+<http://example.org/rodinia-nw-lassen.csv/37> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2354"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/37> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/37> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "802944.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/38> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "14336"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/38> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/38> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/38> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/38> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000d101c004" .
+<http://example.org/rodinia-nw-lassen.csv/38> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2354"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/38> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/38> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "802944.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/39> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "14592"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/39> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/39> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/39> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/39> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200092c5c804" .
+<http://example.org/rodinia-nw-lassen.csv/39> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2440"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/39> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/39> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "831872.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/40> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "14592"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/40> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/40> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/40> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/40> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000d2c5c804" .
+<http://example.org/rodinia-nw-lassen.csv/40> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2440"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/40> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/40> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "831872.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/41> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "14848"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/41> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/41> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/41> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/41> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009491d004" .
+<http://example.org/rodinia-nw-lassen.csv/41> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2526"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/41> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/41> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "861312.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/42> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "14848"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/42> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/42> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/42> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/42> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000d491d004" .
+<http://example.org/rodinia-nw-lassen.csv/42> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2526"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/42> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/42> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "861312.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/43> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "15104"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/43> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/43> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/43> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/43> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009665d804" .
+<http://example.org/rodinia-nw-lassen.csv/43> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2614"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/43> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/43> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "891264.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/44> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "15104"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/44> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/44> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/44> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/44> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000d665d804" .
+<http://example.org/rodinia-nw-lassen.csv/44> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2614"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/44> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/44> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "891264.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/45> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "1536"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/45> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/45> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/45> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/45> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060903004" .
+<http://example.org/rodinia-nw-lassen.csv/45> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "29"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/45> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/45> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "9280.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/46> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "1536"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/46> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/46> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/46> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060a00000" .
+<http://example.org/rodinia-nw-lassen.csv/46> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200061303004" .
+<http://example.org/rodinia-nw-lassen.csv/46> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "29"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/46> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/46> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "9280.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/47> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "15360"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/47> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/47> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/47> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/47> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009841e004" .
+<http://example.org/rodinia-nw-lassen.csv/47> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2702"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/47> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/47> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "921728.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/48> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "15360"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/48> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/48> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/48> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/48> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000d841e004" .
+<http://example.org/rodinia-nw-lassen.csv/48> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2702"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/48> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/48> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "921728.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/49> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "15616"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/49> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/49> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/49> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/49> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009a25e804" .
+<http://example.org/rodinia-nw-lassen.csv/49> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2794"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/49> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/49> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "952704.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/50> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "15616"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/50> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/50> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/50> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/50> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000da25e804" .
+<http://example.org/rodinia-nw-lassen.csv/50> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2794"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/50> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/50> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "952704.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/51> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "15872"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/51> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/51> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/51> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/51> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009c11f004" .
+<http://example.org/rodinia-nw-lassen.csv/51> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2886"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/51> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/51> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "984192.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/52> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "15872"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/52> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/52> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/52> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/52> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000dc11f004" .
+<http://example.org/rodinia-nw-lassen.csv/52> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2886"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/52> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/52> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "984192.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/53> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "16128"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/53> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/53> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/53> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/53> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20009e05f804" .
+<http://example.org/rodinia-nw-lassen.csv/53> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2980"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/53> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/53> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "1016192.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/54> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "16128"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/54> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/54> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/54> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000a0000000" .
+<http://example.org/rodinia-nw-lassen.csv/54> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000de05f804" .
+<http://example.org/rodinia-nw-lassen.csv/54> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2980"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/54> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/54> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "1016192.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/55> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "16384"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/55> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/55> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/55> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/55> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x2000a0020004" .
+<http://example.org/rodinia-nw-lassen.csv/55> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "3074"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/55> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/55> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "1048768.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/56> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "16384"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/56> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/56> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/56> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x2000c0000000" .
+<http://example.org/rodinia-nw-lassen.csv/56> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200100020004" .
+<http://example.org/rodinia-nw-lassen.csv/56> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "3074"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/56> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/56> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "1048768.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/57> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "1792"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/57> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/57> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/57> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/57> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060c43804" .
+<http://example.org/rodinia-nw-lassen.csv/57> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "39"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/57> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/57> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "12608.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/58> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "1792"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/58> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/58> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/58> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060e00000" .
+<http://example.org/rodinia-nw-lassen.csv/58> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200061a43804" .
+<http://example.org/rodinia-nw-lassen.csv/58> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "39"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/58> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/58> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "12608.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/59> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "2048"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/59> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/59> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/59> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/59> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200061004004" .
+<http://example.org/rodinia-nw-lassen.csv/59> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "49"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/59> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/59> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "16448.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/60> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "2048"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/60> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/60> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/60> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200061200000" .
+<http://example.org/rodinia-nw-lassen.csv/60> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200062204004" .
+<http://example.org/rodinia-nw-lassen.csv/60> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "49"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/60> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/60> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "16448.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/61> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "2304"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/61> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/61> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/61> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/61> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200061444804" .
+<http://example.org/rodinia-nw-lassen.csv/61> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "63"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/61> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/61> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "20800.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/62> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "2304"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/62> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/62> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/62> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200061600000" .
+<http://example.org/rodinia-nw-lassen.csv/62> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200062a44804" .
+<http://example.org/rodinia-nw-lassen.csv/62> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "63"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/62> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/62> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "20800.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/63> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "256"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/63> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/63> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/63> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/63> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060040804" .
+<http://example.org/rodinia-nw-lassen.csv/63> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/63> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/63> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "320.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/64> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "256"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/64> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/64> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/64> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060040a00" .
+<http://example.org/rodinia-nw-lassen.csv/64> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060081204" .
+<http://example.org/rodinia-nw-lassen.csv/64> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/64> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/64> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "256.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/65> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "2560"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/65> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/65> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/65> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/65> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200061905004" .
+<http://example.org/rodinia-nw-lassen.csv/65> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "77"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/65> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/65> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "25664.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/66> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "2560"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/66> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/66> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/66> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200061a00000" .
+<http://example.org/rodinia-nw-lassen.csv/66> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200063305004" .
+<http://example.org/rodinia-nw-lassen.csv/66> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "77"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/66> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/66> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "25664.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/67> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "2816"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/67> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/67> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/67> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/67> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200061e45804" .
+<http://example.org/rodinia-nw-lassen.csv/67> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "93"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/67> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/67> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "31040.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/68> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "2816"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/68> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/68> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/68> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200062000000" .
+<http://example.org/rodinia-nw-lassen.csv/68> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200063e45804" .
+<http://example.org/rodinia-nw-lassen.csv/68> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "93"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/68> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/68> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "31040.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/69> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "3072"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/69> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/69> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/69> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/69> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200062406004" .
+<http://example.org/rodinia-nw-lassen.csv/69> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "109"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/69> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/69> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "36928.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/70> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "3072"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/70> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/70> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/70> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200062600000" .
+<http://example.org/rodinia-nw-lassen.csv/70> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200064a06004" .
+<http://example.org/rodinia-nw-lassen.csv/70> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "109"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/70> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/70> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "36928.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/71> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "3328"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/71> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/71> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/71> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/71> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200062a46804" .
+<http://example.org/rodinia-nw-lassen.csv/71> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "129"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/71> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/71> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "43328.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/72> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "3328"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/72> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/72> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/72> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200062c00000" .
+<http://example.org/rodinia-nw-lassen.csv/72> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200065646804" .
+<http://example.org/rodinia-nw-lassen.csv/72> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "129"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/72> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/72> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "43328.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/73> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "3584"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/73> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/73> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/73> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/73> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200063107004" .
+<http://example.org/rodinia-nw-lassen.csv/73> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "149"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/73> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/73> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "50240.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/74> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "3584"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/74> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/74> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/74> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200063200000" .
+<http://example.org/rodinia-nw-lassen.csv/74> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200066307004" .
+<http://example.org/rodinia-nw-lassen.csv/74> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "149"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/74> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/74> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "50240.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/75> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "3840"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/75> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/75> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/75> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/75> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200063847804" .
+<http://example.org/rodinia-nw-lassen.csv/75> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "171"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/75> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/75> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "57664.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/76> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "3840"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/76> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/76> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/76> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200063a00000" .
+<http://example.org/rodinia-nw-lassen.csv/76> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200067247804" .
+<http://example.org/rodinia-nw-lassen.csv/76> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "171"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/76> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/76> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "57664.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/77> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "4096"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/77> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/77> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/77> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/77> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200064008004" .
+<http://example.org/rodinia-nw-lassen.csv/77> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "193"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/77> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/77> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "65600.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/78> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "4096"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/78> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/78> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/78> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200064200000" .
+<http://example.org/rodinia-nw-lassen.csv/78> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200068208004" .
+<http://example.org/rodinia-nw-lassen.csv/78> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "193"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/78> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/78> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "65600.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/79> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/79> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "4352"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/79> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/79> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/79> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/79> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200064848804" .
+<http://example.org/rodinia-nw-lassen.csv/79> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "219"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/79> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/79> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "74048.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/80> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "4352"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/80> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/80> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/80> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200064a00000" .
+<http://example.org/rodinia-nw-lassen.csv/80> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200069248804" .
+<http://example.org/rodinia-nw-lassen.csv/80> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "219"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/80> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/80> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "74048.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/81> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "4608"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/81> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/81> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/81> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/81> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200065109004" .
+<http://example.org/rodinia-nw-lassen.csv/81> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "245"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/81> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/81> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "83008.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/82> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "4608"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/82> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/82> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/82> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200065200000" .
+<http://example.org/rodinia-nw-lassen.csv/82> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006a309004" .
+<http://example.org/rodinia-nw-lassen.csv/82> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "245"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/82> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/82> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "83008.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/83> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "4864"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/83> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/83> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/83> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/83> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200065a49804" .
+<http://example.org/rodinia-nw-lassen.csv/83> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "273"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/83> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/83> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "92480.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/84> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/84> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "4864"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/84> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/84> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/84> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200065c00000" .
+<http://example.org/rodinia-nw-lassen.csv/84> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006b649804" .
+<http://example.org/rodinia-nw-lassen.csv/84> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "273"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/84> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/84> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "92480.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/85> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/85> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "512"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/85> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/85> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/85> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/85> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060101004" .
+<http://example.org/rodinia-nw-lassen.csv/85> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/85> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/85> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "1088.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/86> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "512"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/86> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/86> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/86> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060200000" .
+<http://example.org/rodinia-nw-lassen.csv/86> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060301004" .
+<http://example.org/rodinia-nw-lassen.csv/86> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/86> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/86> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "1088.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/87> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/87> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "5120"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/87> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/87> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/87> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/87> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006640a004" .
+<http://example.org/rodinia-nw-lassen.csv/87> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "301"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/87> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/87> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "102464.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/88> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "5120"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/88> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/88> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/88> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200066600000" .
+<http://example.org/rodinia-nw-lassen.csv/88> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006ca0a004" .
+<http://example.org/rodinia-nw-lassen.csv/88> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "301"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/88> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/88> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "102464.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/89> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "5376"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/89> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/89> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/89> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/89> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200066e4a804" .
+<http://example.org/rodinia-nw-lassen.csv/89> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "333"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/89> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/89> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "112960.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/90> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/90> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "5376"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/90> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/90> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/90> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200067000000" .
+<http://example.org/rodinia-nw-lassen.csv/90> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006de4a804" .
+<http://example.org/rodinia-nw-lassen.csv/90> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "333"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/90> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/90> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "112960.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/91> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "5632"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/91> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/91> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/91> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/91> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006790b004" .
+<http://example.org/rodinia-nw-lassen.csv/91> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "365"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/91> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/91> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "123968.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/92> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/92> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "5632"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/92> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/92> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/92> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200067a00000" .
+<http://example.org/rodinia-nw-lassen.csv/92> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006f30b004" .
+<http://example.org/rodinia-nw-lassen.csv/92> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "365"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/92> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/92> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "123968.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/93> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "5888"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/93> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/93> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/93> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/93> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006844b804" .
+<http://example.org/rodinia-nw-lassen.csv/93> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "399"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/93> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/93> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "135488.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/94> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/94> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "5888"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/94> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/94> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/94> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200068600000" .
+<http://example.org/rodinia-nw-lassen.csv/94> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200070a4b804" .
+<http://example.org/rodinia-nw-lassen.csv/94> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "399"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/94> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/94> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "135488.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/95> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/95> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "6144"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/95> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/95> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/95> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/95> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006900c004" .
+<http://example.org/rodinia-nw-lassen.csv/95> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "433"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/95> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/95> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "147520.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/96> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "6144"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/96> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/96> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/96> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200069200000" .
+<http://example.org/rodinia-nw-lassen.csv/96> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20007220c004" .
+<http://example.org/rodinia-nw-lassen.csv/96> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "433"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/96> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/96> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "147520.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/97> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "6400"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/97> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/97> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/97> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/97> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200069c4c804" .
+<http://example.org/rodinia-nw-lassen.csv/97> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "471"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/97> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/97> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "160064.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/98> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "6400"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/98> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/98> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/98> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200069e00000" .
+<http://example.org/rodinia-nw-lassen.csv/98> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200073a4c804" .
+<http://example.org/rodinia-nw-lassen.csv/98> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "471"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/98> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/98> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "160064.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/99> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/99> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "6656"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/99> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/99> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/99> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/99> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006a90d004" .
+<http://example.org/rodinia-nw-lassen.csv/99> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "509"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/99> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/99> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "173120.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/100> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "6656"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/100> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/100> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/100> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x20006aa00000" .
+<http://example.org/rodinia-nw-lassen.csv/100> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20007530d004" .
+<http://example.org/rodinia-nw-lassen.csv/100> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "509"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/100> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/100> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "173120.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/101> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "6912"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/101> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/101> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/101> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/101> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006b64d804" .
+<http://example.org/rodinia-nw-lassen.csv/101> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "549"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/101> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/101> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "186688.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/102> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "6912"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/102> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/102> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/102> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x20006b800000" .
+<http://example.org/rodinia-nw-lassen.csv/102> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200076e4d804" .
+<http://example.org/rodinia-nw-lassen.csv/102> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "549"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/102> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/102> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "186688.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/103> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "7168"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/103> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/103> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/103> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/103> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006c40e004" .
+<http://example.org/rodinia-nw-lassen.csv/103> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "589"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/103> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/103> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "200768.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/104> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "7168"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/104> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/104> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/104> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x20006c600000" .
+<http://example.org/rodinia-nw-lassen.csv/104> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200078a0e004" .
+<http://example.org/rodinia-nw-lassen.csv/104> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "589"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/104> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/104> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "200768.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/105> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "7424"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/105> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/105> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/105> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/105> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006d24e804" .
+<http://example.org/rodinia-nw-lassen.csv/105> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "633"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/105> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/105> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "215360.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/106> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "7424"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/106> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/106> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/106> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x20006d400000" .
+<http://example.org/rodinia-nw-lassen.csv/106> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20007a64e804" .
+<http://example.org/rodinia-nw-lassen.csv/106> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "633"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/106> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/106> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "215360.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/107> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "768"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/107> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/107> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/107> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/107> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060241804" .
+<http://example.org/rodinia-nw-lassen.csv/107> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/107> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/107> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "2368.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/108> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "768"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/108> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/108> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/108> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060400000" .
+<http://example.org/rodinia-nw-lassen.csv/108> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200060641804" .
+<http://example.org/rodinia-nw-lassen.csv/108> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/108> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/108> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "2368.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/109> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "7680"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/109> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/109> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/109> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/109> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006e10f004" .
+<http://example.org/rodinia-nw-lassen.csv/109> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "677"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/109> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/109> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "230464.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/110> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "7680"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/110> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/110> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/110> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x20006e200000" .
+<http://example.org/rodinia-nw-lassen.csv/110> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20007c30f004" .
+<http://example.org/rodinia-nw-lassen.csv/110> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "677"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/110> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/110> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "230464.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/111> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "7936"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/111> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/111> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/111> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/111> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20006f04f804" .
+<http://example.org/rodinia-nw-lassen.csv/111> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "723"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/111> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/111> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "246080.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/112> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "7936"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/112> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/112> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/112> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x20006f200000" .
+<http://example.org/rodinia-nw-lassen.csv/112> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x20007e24f804" .
+<http://example.org/rodinia-nw-lassen.csv/112> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "723"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/112> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/112> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "246080.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/113> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "8192"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/113> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/113> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/113> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/113> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200070010004" .
+<http://example.org/rodinia-nw-lassen.csv/113> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "770"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/113> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/113> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "262272.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/114> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "8192"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/114> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/114> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/114> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/114> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200090010004" .
+<http://example.org/rodinia-nw-lassen.csv/114> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "770"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/114> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/114> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "262272.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/115> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "8448"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/115> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/115> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/115> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/115> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200071050804" .
+<http://example.org/rodinia-nw-lassen.csv/115> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "820"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/115> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/115> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "278912.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/116> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "8448"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/116> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/116> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/116> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/116> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200091050804" .
+<http://example.org/rodinia-nw-lassen.csv/116> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "820"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/116> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/116> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "278912.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/117> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "8704"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/117> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/117> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/117> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/117> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200072111004" .
+<http://example.org/rodinia-nw-lassen.csv/117> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "870"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/117> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/117> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "296064.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/118> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "8704"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/118> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/118> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/118> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/118> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200092111004" .
+<http://example.org/rodinia-nw-lassen.csv/118> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "870"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/118> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/118> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "296064.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/119> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "8960"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/119> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/119> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/119> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/119> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200073251804" .
+<http://example.org/rodinia-nw-lassen.csv/119> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "922"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/119> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/119> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "313728.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/120> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "8960"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/120> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/120> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/120> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/120> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200093251804" .
+<http://example.org/rodinia-nw-lassen.csv/120> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "922"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/120> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/120> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "313728.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/121> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "9216"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/121> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/121> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/121> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/121> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200074412004" .
+<http://example.org/rodinia-nw-lassen.csv/121> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "974"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/121> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/121> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "331904.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/122> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/122> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "9216"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/122> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/122> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/122> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/122> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200094412004" .
+<http://example.org/rodinia-nw-lassen.csv/122> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "974"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/122> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/122> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "331904.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/123> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "9472"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/123> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/123> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/123> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/123> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200075652804" .
+<http://example.org/rodinia-nw-lassen.csv/123> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1030"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/123> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/123> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "350592.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/124> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "9472"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/124> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/124> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/124> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/124> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200095652804" .
+<http://example.org/rodinia-nw-lassen.csv/124> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1030"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/124> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/124> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "350592.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/125> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "9728"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/125> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/125> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/125> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/125> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200076913004" .
+<http://example.org/rodinia-nw-lassen.csv/125> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1086"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/125> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/125> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "369792.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/126> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "9728"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/126> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/126> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/126> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/126> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200096913004" .
+<http://example.org/rodinia-nw-lassen.csv/126> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1086"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/126> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/126> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "369792.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/127> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "9984"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/127> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "referrence " .
+<http://example.org/rodinia-nw-lassen.csv/127> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "0" .
+<http://example.org/rodinia-nw-lassen.csv/127> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200060000000" .
+<http://example.org/rodinia-nw-lassen.csv/127> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200077c53804" .
+<http://example.org/rodinia-nw-lassen.csv/127> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1144"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/127> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/127> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "389504.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow> .
+<http://example.org/rodinia-nw-lassen.csv/128> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize> "9984"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/128> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array> "input_itemsets " .
+<http://example.org/rodinia-nw-lassen.csv/128> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id> "1" .
+<http://example.org/rodinia-nw-lassen.csv/128> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress> "0x200080000000" .
+<http://example.org/rodinia-nw-lassen.csv/128> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress> "0x200097c53804" .
+<http://example.org/rodinia-nw-lassen.csv/128> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault> "1144"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://example.org/rodinia-nw-lassen.csv/128> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/rodinia-nw-lassen.csv/128> <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer> "389504.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
