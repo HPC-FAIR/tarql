@@ -38,3 +38,11 @@ Reference output files are stored under
 CSV files need some preprocessing:
 * remove space and special characters in column names. Or the parser will fail
 * each row should already have a unique id for each record. Or you can add a new first column and use row id as the unique ID.
+
+The generated file is .nt , notation3 or N3 syntax of RDF. 
+
+https://rdf-translator.appspot.com/ can convert .nt file into json-ld or any other file formats.
+
+The online convert needs Input to be selected at N3. Automatic recognition may not work.
+
+ 
