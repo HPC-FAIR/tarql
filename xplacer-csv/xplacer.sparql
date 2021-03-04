@@ -1,0 +1,73 @@
+# the actual ontology is defined in the following URL
+PREFIX hpc: <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#>
+
+# We may use a better URL later like
+# PREFIX hpc: <https://github.com/HPC-FAIR/HPC-Ontology#>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX tableurl: <http://example.org/rodinia-nw-lassen.csv#>
+
+
+CONSTRUCT {
+# using table URL +row id as the URI for each record
+# the variables used come with a suffix indicating their data types
+
+  ?URI a hpc:TableRow;
+    hpc:inputDataSize ?InputDataInt;
+    hpc:kernel ?Kernel;
+    hpc:array ?Data;
+    hpc:id ?DataID;
+    hpc:DRAMFreq ?DRAMFrequencyDec;
+    hpc:Cycle ?ElapsedCyclesDec;
+    hpc:MemberOccupancy ?MemoryOccupancyPct;
+    hpc:Duration ?DurationFP;
+
+    hpc:BlockSize ?BlockSizeFP;
+    hpc:GridSize ?GridSizeFP;
+
+    hpc:RegistersPerThread ?RegistersPerThreadInt;
+
+# values will be stored as string by default
+    hpc:BeginMemoryAddress ?BeginAddr; 
+    hpc:EndMemoryAddress ?EndAddr; 
+
+    hpc:CPUPageFault ?CPUPageFaultInt; 
+    hpc:GPUPageFault ?GPUPageFaultInt; 
+
+    hpc:DeviceToHostTransfer ?DtoHFP; 
+    hpc:HostToDeviceTransfer ?HtoDFP; 
+
+} 
+FROM <file:rodinia_3.1_cuda_nw_labelledData-lassen-plus-rowId.csv> 
+
+WHERE {
+
+# convert each column's value to an explicit types: URI, Integer, decimal, etc.
+
+ # combine table url and row Id as the URI
+  BIND (URI(CONCAT('http://example.org/rodinia-nw-lassen.csv/', ?No)) AS ?URI)
+
+# convert inputData to integer inputDataSize
+  BIND (xsd:integer(?InputData) AS ?InputDataInt)
+
+# convert dram freq to decimal
+  BIND (xsd:decimal(?DRAMFrequency) AS ?DRAMFrequencyDec)
+
+  BIND (xsd:decimal(?ElapsedCycles) AS ?ElapsedCyclesDec)
+
+  BIND (xsd:decimal(?MemoryPercentage) AS ?MemoryOccupancyPct)
+
+  BIND (xsd:decimal(?Duration) AS ?DurationFP)
+
+  BIND (xsd:decimal(?BlockSize) AS ?BlockSizeFP)
+  BIND (xsd:decimal(?GridSize) AS ?GridSizeFP)
+
+  BIND (xsd:decimal(?RegistersPerThread) AS ?RegistersPerThreadInt)
+
+# convert page faults into integers
+  BIND (xsd:integer(?CPUPageFault) AS ?CPUPageFaultInt)
+  BIND (xsd:integer(?GPUPageFault) AS ?GPUPageFaultInt)
+
+  BIND (xsd:decimal(?DtoH) AS ?DtoHFP)
+  BIND (xsd:decimal(?HtoD) AS ?HtoDFP)
+}
