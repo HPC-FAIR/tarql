@@ -1,5 +1,18 @@
+# The speadsheet defining semantics of the columns:
+# https://docs.google.com/spreadsheets/d/1fbQ-mRpkCmZBGqhIiuN0f4Lfq8HdJac8FyZPbMBJv9M/edit?usp=sharing
+#
+# Problem 1: HPC training datasets involves a lots of concepts from different domains, hardware, software, tools, etc.
+# Solution: instead of bring in 10+ different namespaces, we gather them under one HPC namespace
+#          Users only need to learn a single vacabulary to get started. 
+#          The HPC ontology is also connected to other popular ones if users want to be exposed to more namespaces as they desire.
+#
 # the actual ontology is defined in the following URL
 PREFIX hpc: <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Using ontologies from QUDT
+PREFIX qudt: <http://qudt.org/schema/qudt/> 
+PREFIX unit: <http://qudt.org/vocab/unit/>
 
 # We may use a better URL later like
 # PREFIX hpc: <https://github.com/HPC-FAIR/HPC-Ontology#>
@@ -9,6 +22,8 @@ PREFIX tableurl: <http://example.org/rodinia-nw-lassen.csv#>
 
 
 CONSTRUCT {
+# the csv records labeled profling information from nvprof or nsight
+#
 # using table URL +row id as the URI for each record
 # the variables used come with a suffix indicating their data types
 
@@ -17,28 +32,38 @@ CONSTRUCT {
     hpc:kernel ?Kernel;
     hpc:array ?Data;
     hpc:id ?DataID;
+
     hpc:DRAMFreq ?DRAMFrequencyDec;
     hpc:Cycle ?ElapsedCyclesDec;
     hpc:MemberOccupancy ?MemoryOccupancyPct;
-    hpc:Duration ?DurationFP;
+# Problem 2: timing information has different units: seconds, micoseconds, nano seconds
+# Solution: we encode the value as a structured value using QUDT ontologies
+    hpc:Duration [rdf:type qudt:QuantityValue ; qudt:value ?DurationFP; qudt:unit unit:NanoSEC];
 
     hpc:BlockSize ?BlockSizeFP;
     hpc:GridSize ?GridSizeFP;
 
     hpc:RegistersPerThread ?RegistersPerThreadInt;
-
+# Problem 3: memory address
 # values will be stored as string by default
+# TODO: Should Memory addresses be directly supported as an independent unit type?
+# Or it is just integer offset values: byte-addressable
     hpc:BeginMemoryAddress ?BeginAddr; 
     hpc:EndMemoryAddress ?EndAddr; 
 
     hpc:CPUPageFault ?CPUPageFaultInt; 
     hpc:GPUPageFault ?GPUPageFaultInt; 
 
-    hpc:DeviceToHostTransfer ?DtoHFP; 
-    hpc:HostToDeviceTransfer ?HtoDFP; 
+    hpc:DeviceToHostTransfer [ rdf:type qudt:QuantityValue ; qudt:value ?DtoHFP; qudt:unit unit:KiloBYTE ];
+# try to encode value + unit together using QUDT ontologies
+# it is kilo byte
+    hpc:HostToDeviceTransfer [ rdf:type qudt:QuantityValue ; qudt:value ?HtoDFP; qudt:unit unit:KiloBYTE ];
 
 } 
 FROM <file:rodinia_3.1_cuda_nw_labelledData-lassen-plus-rowId.csv> 
+
+# Problem 4: automation
+# Solution: TARQL. Tried a few chocies. This one works, using standard SPARQL construct query to convert.
 
 WHERE {
 
