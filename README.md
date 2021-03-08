@@ -52,7 +52,16 @@ For example, to encode a product has a weight of 2.4 kilograms
 # unit : kilo gram
 exproduct:item10245 exterms:weight [ rdf:type qudt:QuantityValue ; 
                                      qudt:value "2.4"^^xsd:float;
-                                     qudt:unit exunits:kilograms ] .
+                                     qudt:unit unit:kiloGM ] .
+
+# the triple format (expanded from the combined [type, value, unit]) will use a temporary object
+exproduct:item10245 exterms:weight _:B8463b9 .
+_:B8463b9 rdf:type qudt:QuantityValue .
+_:B8463b9 qudt:value "2.4"^^xsd:float .
+_:B8463b9 qudt:unit unit:kiloGM .
+
+To find available units of QUDT, using Protege to open http://qudt.org/2.1/vocab/unit and search indivdiual entities.
+
 ```
 
 
