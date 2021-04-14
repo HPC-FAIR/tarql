@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    	<title>RDF Translator - json-ld of https://raw.githubusercontent.com/HPC-FAIR/tarql/master/xplacer-csv/rodinia_3.1_cuda_bfs_datalevel-lassen-plus-rowId.nt</title>
+    	<link rel="stylesheet" type="text/css" href="/static/pygments.css"/>
+    	<style type="text/css">
+    	<!--
+    	body {
+    	  margin: 0 auto;
+    	  paddin: 0
+    	}
+    	div, pre {
+    	  margin: 0;
+    	  padding: 0;
+    	}
+    	.highlight {
+    	  padding: 12px;
+    	  background-color: #FFFFFF;
+    	}
+    	-->
+    	</style>
+    	<meta name="author" content="Alex Stolz">
+    </head>
+    <body>
+<div class="highlight"><pre><span class="p">[</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N6f40e32a7961488984a92b97d9401885&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;1024.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Na8c54920f8d14e4d83c9298750c88d11&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nd2fdda2d6dd541df9892cce12cb684d3&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;1024.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N352aadca477046d5bfdc91f4c4125a38&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;576.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb6903f3c642445a385ac7d1e07b26169&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N7b97bb9dffee40f99b73bb036123dde0&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ne53334bd14944c3eb86d486abc9dea21&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N83d1e4e00ae84dd099cfa99151710a2f&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb8b2eb0f53674febbbbc18afb61a51a2&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ndbcdbbcf7d8843d9958d38e8ee610c78&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Naf3f7db7841046efade70ab607eaecee&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;1024.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ne7b076d455bd41949b7f5067e3009bf9&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N2c261180e131476ebd6c69a8a2695ac7&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nf1e919f21eec49dc8149c4de8484409c&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/6&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060008000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">0</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N7e7f6f9619994c0985674b5a2b50c97a&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nf1e919f21eec49dc8149c4de8484409c&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N9b236aa8f411452a84b831aae50dd2a0&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N92675682b63745b7b460806a5c2d4599&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060009000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nc444a48c0b8f4384a8ccb4a33c528c33&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N35b1314a90d24f77bd6d13d3405f2f03&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_graph_mask&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;1&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ndd7d8ea702b749118e568544e1d045a6&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N85f80ea03a404040a9c726111e2e302d&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N7e7f6f9619994c0985674b5a2b50c97a&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N9b236aa8f411452a84b831aae50dd2a0&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nde3ff45338cb4bd0baf240e3d49b66b5&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N6160385932264180a511a39d88295078&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N4ad0c9f49ea94b5987befa5e3b7c614c&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/11&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060090000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">2</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nf6eed1a0644d4c528078f6dbe70ff43e&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nceeade5ed5e14cf9a694cadb72c15151&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Na73cf8bf8482441d8eb668987c3e13b7&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Na8c54920f8d14e4d83c9298750c88d11&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x2000600a0000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N473162857fd5424795b33b15b15b2747&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Na7e86397a007484e9c57bb4d4ae382f4&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_updating_graph_mask&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;2&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/10&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060080000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">2</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nddb9154f6cea4cec95ddc9a72cf2f3e4&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N162efe3c392f4f5fb51ea6fca93617ab&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ncde16a488d8048639dd07d668955ade5&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nde3ff45338cb4bd0baf240e3d49b66b5&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060090000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N96ad1b646b374805bf640cb51cb9c340&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nc449db3389e64775b7d9d508ba99d3c1&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_graph_mask&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;1&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/12&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x2000600a0000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">1</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N42b09a83e9e849e98d744f899f436b3c&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N4c1186f0a56e4cde8259412c1a285523&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N2175ab46478a4965a8cd25f81abb1da5&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N746fa3b19d694a978f1ddc1e42283a61&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x2000600b0000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N0f9878a0eb2b42b49b1b8ff60af71eae&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N86f78b39445a4029bea1834b22b0832a&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_graph_visited&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;3&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/9&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060000000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">5</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N6160385932264180a511a39d88295078&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N4ad0c9f49ea94b5987befa5e3b7c614c&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N4bf4525b79d745d1ae850c115829d829&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N336a64a4cdea47b880be4e82451f0566&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060080000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N352aadca477046d5bfdc91f4c4125a38&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N96da3e0d3bc54932abc48dc2eec34b2c&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_graph_nodes&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N96da3e0d3bc54932abc48dc2eec34b2c&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;576.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nefaf5e476c494417b30c73d4b687ddcb&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N336a64a4cdea47b880be4e82451f0566&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nc449db3389e64775b7d9d508ba99d3c1&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;192.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nddb9154f6cea4cec95ddc9a72cf2f3e4&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/1&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060000000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">24</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Necbd297aa5f04761945a8c14268eaf52&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nbb009c679f764068a0ca7bdabc3a82fe&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ne53334bd14944c3eb86d486abc9dea21&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N18131b4ecd5a4aec9c6aab467fdaa9ed&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x2000607a1200&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N75c9ca4be6bd4de5880b8df6a4ba2c7f&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N50b216d59a424f0490d213c94ecfd012&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_graph_nodes&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb9b64eb3c7fb49358418840c00500847&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/3&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x2000608f4400&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">4</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb9aad5dc4f854f788ab02d88aa3fdbe9&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N2c261180e131476ebd6c69a8a2695ac7&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ndd7d8ea702b749118e568544e1d045a6&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nc463d49bf2c4434fbce796fcb3fd15ea&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x2000609e8640&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N6f40e32a7961488984a92b97d9401885&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Naf3f7db7841046efade70ab607eaecee&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_updating_graph_mask&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;2&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/2&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060800000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">6</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nc4a55ec3d47240e2b3ed9c72bddc1a15&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ne7b076d455bd41949b7f5067e3009bf9&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ndd243ebd20c74599b9cce24e44c3e661&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N369938645001476da78fcce3f4d8f278&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x2000608f4240&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nd2fdda2d6dd541df9892cce12cb684d3&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Na57218f094384559b6d47c601d3555b8&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_graph_mask&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;1&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N0f9878a0eb2b42b49b1b8ff60af71eae&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;256.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N369938645001476da78fcce3f4d8f278&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N77c08f8ba2e14a009a7d1d97965d7263&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;1024.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N42b09a83e9e849e98d744f899f436b3c&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Na57218f094384559b6d47c601d3555b8&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;1024.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N1116ba8263364b34815caccb0f2190e8&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N86f78b39445a4029bea1834b22b0832a&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;256.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nc463d49bf2c4434fbce796fcb3fd15ea&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nbb009c679f764068a0ca7bdabc3a82fe&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb6d3790f181245b4850c26be66de284a&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb8a423fb8d954fdcaf7f00f5cd90a8ca&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N3bce8811924645aa82d793d155fa3140&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N4bf4525b79d745d1ae850c115829d829&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nf6eed1a0644d4c528078f6dbe70ff43e&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N75c9ca4be6bd4de5880b8df6a4ba2c7f&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;7872.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N9b540e47362443959d200a770a356096&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;64.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N4c1186f0a56e4cde8259412c1a285523&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/8&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x20006000a000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">0</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N85f80ea03a404040a9c726111e2e302d&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ndbcdbbcf7d8843d9958d38e8ee610c78&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb8b2eb0f53674febbbbc18afb61a51a2&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nc46d90315c2a4163bff9ee4a208c9601&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x20006000b000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb8a423fb8d954fdcaf7f00f5cd90a8ca&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N03dd1672c01e46a9b019da9a0306b280&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_graph_visited&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;3&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nc444a48c0b8f4384a8ccb4a33c528c33&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ncde16a488d8048639dd07d668955ade5&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N2393ec44b0d2450088811f1c8b5b1896&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N2175ab46478a4965a8cd25f81abb1da5&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N162efe3c392f4f5fb51ea6fca93617ab&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N35b1314a90d24f77bd6d13d3405f2f03&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N0359c7e282de4fe7945fb679e9b4aace&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/5&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060000000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">1</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nefaf5e476c494417b30c73d4b687ddcb&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb6d3790f181245b4850c26be66de284a&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb9b64eb3c7fb49358418840c00500847&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N4ffd23132659418c89c2b1872f100aad&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060008000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N1e74cde427244de9aab4eb0dd6b21420&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N9b540e47362443959d200a770a356096&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_graph_nodes&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N4ffd23132659418c89c2b1872f100aad&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nc4a55ec3d47240e2b3ed9c72bddc1a15&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb4045ef1dee54f848884d3a4a4c8c6b7&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Necbd297aa5f04761945a8c14268eaf52&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/4&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060a00000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">5</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nf9cc326cdb164590b510633f365a48e3&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N0359c7e282de4fe7945fb679e9b4aace&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N0a6bd4ebc429435e99470eb850e298fe&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb6903f3c642445a385ac7d1e07b26169&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060af4240&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nd117f8e5ee824ed88c7f49addfde8070&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N77c08f8ba2e14a009a7d1d97965d7263&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_graph_visited&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;3&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N18131b4ecd5a4aec9c6aab467fdaa9ed&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N746fa3b19d694a978f1ddc1e42283a61&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb9aad5dc4f854f788ab02d88aa3fdbe9&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nf9cc326cdb164590b510633f365a48e3&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Ndd243ebd20c74599b9cce24e44c3e661&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N473162857fd5424795b33b15b15b2747&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;128.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N03dd1672c01e46a9b019da9a0306b280&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nd117f8e5ee824ed88c7f49addfde8070&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;1024.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Na73cf8bf8482441d8eb668987c3e13b7&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N50b216d59a424f0490d213c94ecfd012&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;7872.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nceeade5ed5e14cf9a694cadb72c15151&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N1e74cde427244de9aab4eb0dd6b21420&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;64.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Na7e86397a007484e9c57bb4d4ae382f4&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;128.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N92675682b63745b7b460806a5c2d4599&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N0a6bd4ebc429435e99470eb850e298fe&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N96ad1b646b374805bf640cb51cb9c340&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/KiloBYTE&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/value&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="s2">&quot;http://www.w3.org/2001/XMLSchema#decimal&quot;</span><span class="p">,</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;192.0&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nc46d90315c2a4163bff9ee4a208c9601&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;http://qudt.org/schema/qudt/QuantityValue&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;http://qudt.org/schema/qudt/unit&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://qudt.org/vocab/unit/NanoSEC&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;http://example.org/rodinia-nw-lassen.csv/7&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;@type&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="s2">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow&quot;</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x200060009000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="mi">0</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N7b97bb9dffee40f99b73bb036123dde0&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N83d1e4e00ae84dd099cfa99151710a2f&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:Nb4045ef1dee54f848884d3a4a4c8c6b7&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N2393ec44b0d2450088811f1c8b5b1896&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;0x20006000a000&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N1116ba8263364b34815caccb0f2190e8&quot;</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@id&quot;</span><span class="p">:</span> <span class="s2">&quot;_:N3bce8811924645aa82d793d155fa3140&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;h_updating_graph_mask&quot;</span>
+      <span class="p">}</span>
+    <span class="p">],</span>
+    <span class="nt">&quot;https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id&quot;</span><span class="p">:</span> <span class="p">[</span>
+      <span class="p">{</span>
+        <span class="nt">&quot;@value&quot;</span><span class="p">:</span> <span class="s2">&quot;2&quot;</span>
+      <span class="p">}</span>
+    <span class="p">]</span>
+  <span class="p">}</span>
+<span class="p">]</span>
+</pre></div>
+
+    </body>
+</html>
