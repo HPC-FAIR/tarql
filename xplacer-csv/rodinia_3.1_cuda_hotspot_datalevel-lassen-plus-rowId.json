@@ -1,0 +1,2402 @@
+[
+  {
+    "@id": "_:N6140641054204134a67cafb9f4a4adb9",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0d8532a8e4264b22be5e6bc97b53e171",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1d45c603b9b94297936ee15bb1d4eee4",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/15",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 769
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:Nf81deaa7184d4d9abdfb52feaed96b5f"
+      },
+      {
+        "@id": "_:N3f063928b9474a059579a410ce08ad75"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:Nd42bbd5fc8f04991880e06c6ce8a3f87"
+      },
+      {
+        "@id": "_:N9a710cfeafb042b4bca8a08739d3b4a4"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200070000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:Nd024b5328fc1475f8c784e73f190af78"
+      },
+      {
+        "@id": "_:N0b1390786ad24108ac9275487b90d9f7"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingTemp"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 8192
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/14",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060004000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 0
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:N034919088ef749a3896d330701af288f"
+      },
+      {
+        "@id": "_:N6ab4b2348d3d473d9c8927e5ea2dc985"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:Nec16456c44ac46148d780732cec0f0ae"
+      },
+      {
+        "@id": "_:N38cbb503c16243e7bc2b5892f591d5fa"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200060008000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:N920e4b70a67e4a28bf70b3e2c0fc2ace"
+      },
+      {
+        "@id": "_:Nbda80c71035441eeb2958946fe048431"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingPower"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 64
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/16",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200070000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 769
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:N0d899b87383c4a779368f6ae998a4eb4"
+      },
+      {
+        "@id": "_:N0938e2d9239e4ba8bceb39f5a78b14b3"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:Nb5bf05322f284638aa64522332f3313f"
+      },
+      {
+        "@id": "_:Na213936607504e8fbcf9ca14d825b5d0"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200080000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:N5ecbd0096d8d49bab394ffb59f9f1a70"
+      },
+      {
+        "@id": "_:N5511ca9874e4481b8bf95f45dabd42c8"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingPower"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 8192
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/11",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 6
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:N509c3efa165248e88df427f86abdd81c"
+      },
+      {
+        "@id": "_:Nd3a94428f72c4872b537a58d40a523ea"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:N6140641054204134a67cafb9f4a4adb9"
+      },
+      {
+        "@id": "_:N2357295234294958b163f35e356276fe"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200060100000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:N8b95ab3ae5a34442b908dbea1edda79c"
+      },
+      {
+        "@id": "_:N5a83d493196f41ffb8325983dc1a1e63"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingTemp"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 512
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/10",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200064000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 193
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:Nb30e51c4046144a7a94332b305a748e1"
+      },
+      {
+        "@id": "_:N615a627da07a4473b8c7ab315f675db4"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:N0d8532a8e4264b22be5e6bc97b53e171"
+      },
+      {
+        "@id": "_:N84c76dc2134d47568a602d33a1d2c74d"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200068000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:N4033ad5aa7ec4367a84553db0df16cc9"
+      },
+      {
+        "@id": "_:N50a65ba7147944b78cf2a6488e699eff"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingPower"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 4096
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/13",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 2
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:N9334cb533679433aa628d1b534d5a0da"
+      },
+      {
+        "@id": "_:Nc2d2fad685bb481aad66e19c1292f781"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:N9fa42229b1aa48818278613f08c16cd5"
+      },
+      {
+        "@id": "_:N1d8e1662a40f491ebbbd8012ef2950cb"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200060004000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:Ndaf014092fcb4a79afd7c28eda631a10"
+      },
+      {
+        "@id": "_:Nd57ee0e87b664b7d9f8b5b338a2c6a40"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingTemp"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 64
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/12",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060100000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 2
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:Naf6c27e0125d4b66b1513b3f25c637ee"
+      },
+      {
+        "@id": "_:N34effb5c5bbe4734b39cacb933dab1aa"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:N35582549aaae4229802b986118c355cd"
+      },
+      {
+        "@id": "_:Nc3b6fc94d7274583a029ac1a4de45241"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200060200000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:N637bca8b4850464b8fe8c09b2b3534db"
+      },
+      {
+        "@id": "_:N226a07bf9bb646e3b310f2db2ec8c3fa"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingPower"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 512
+      }
+    ]
+  },
+  {
+    "@id": "_:N9ab3a07cf7bd4179ac46c1aedae947fc",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N91aef2602a9b46069de5a9357d9ea994",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "4224.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N55ef99c0e5d9442f86fc1b7c5b3579bc",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N091b438622fa47d89b38c84c8075d527",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb39cf1886ca043dd93140439b6af822f",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N34effb5c5bbe4734b39cacb933dab1aa",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd3a94428f72c4872b537a58d40a523ea",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N604b96830e2444afa4bfa50d6b1e86d4",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "16576.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf0c2b9d35a9b4035b23325727bca852c",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8b95ab3ae5a34442b908dbea1edda79c",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "1152.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb83f2df85ad544ce9f0b9eaf76fe6f4a",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N31cb7abe0a034e0bbe5579a9a88541ba",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9a710cfeafb042b4bca8a08739d3b4a4",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd57ee0e87b664b7d9f8b5b338a2c6a40",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf679d27edc344cd6ba75836a5e8d61e3",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "65792.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0938e2d9239e4ba8bceb39f5a78b14b3",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndaf014092fcb4a79afd7c28eda631a10",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N50a65ba7147944b78cf2a6488e699eff",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "65536.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5a83d493196f41ffb8325983dc1a1e63",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "1152.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb5bf05322f284638aa64522332f3313f",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5ecbd0096d8d49bab394ffb59f9f1a70",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "262144.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Naf6c27e0125d4b66b1513b3f25c637ee",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf81deaa7184d4d9abdfb52feaed96b5f",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfb0795d510d341e5a3faa2154645adb3",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nde9e44a476d342d1b7f5ef194750b075",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "256.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc2651d6f08a346dfa83b6400fe2094e5",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N69ac9844591640fe9754bc1e40711728",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "4224.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/9",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 193
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:Nb443ea962b934fe8b9e10dc6f872d8cb"
+      },
+      {
+        "@id": "_:Nc14073fc487f4beaa4307b2e2fc50653"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:N05529de4ae574d13adc23116e58bb7d9"
+      },
+      {
+        "@id": "_:Nbf77f6da549347b5a25a411441793635"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200064000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:Nf679d27edc344cd6ba75836a5e8d61e3"
+      },
+      {
+        "@id": "_:N099ed68da9d14935821243a7a2a7e25d"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingTemp"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 4096
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/8",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060040000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 2
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:N92237f07dddf41ab9c7d1167052aad86"
+      },
+      {
+        "@id": "_:Nf3d0345860d24c2991f39e06f99058ea"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:N5126c373f25940139ec5f0d034864bb4"
+      },
+      {
+        "@id": "_:N927865f29c1b48ac813eabefd00aab6c"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200060080000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:N105269e59f8746dba24f730e268c53e8"
+      },
+      {
+        "@id": "_:Nde9e44a476d342d1b7f5ef194750b075"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingPower"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 256
+      }
+    ]
+  },
+  {
+    "@id": "_:N6c2ea22ffcd64cbcb9581ff80dbf78ea",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb443ea962b934fe8b9e10dc6f872d8cb",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6803ba7d9546466b899d345ba3c8bb4e",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "320.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/1",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 13
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:Nb83f2df85ad544ce9f0b9eaf76fe6f4a"
+      },
+      {
+        "@id": "_:N6c2ea22ffcd64cbcb9581ff80dbf78ea"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:Nbb645556c494478c99882f1284202480"
+      },
+      {
+        "@id": "_:Nc5e6e1e8cc654a2aacb3aa145edb52d8"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200060400000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:N955d6e10ac5541e098681a4cd5ee8b7b"
+      },
+      {
+        "@id": "_:N91aef2602a9b46069de5a9357d9ea994"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingTemp"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 1024
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/3",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 2
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:Nb771f3b9f42e4307b17e776f4f499e9a"
+      },
+      {
+        "@id": "_:Nfbe29db76ba048b1b695850f902e4fc0"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:Nea61f77ac4834dc3aa3616b60c7c1f49"
+      },
+      {
+        "@id": "_:N31cb7abe0a034e0bbe5579a9a88541ba"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200060010000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:N333c5391741b47e79dbc3f815f81e6c1"
+      },
+      {
+        "@id": "_:N0bd4c3cb75634292b71d7080415d2457"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingTemp"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 128
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/2",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060400000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 15
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:N22864a0636634dc09f63cb7b57682264"
+      },
+      {
+        "@id": "_:Nc90c8bd0eb56411798ee5eb564b67496"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:Nfb0795d510d341e5a3faa2154645adb3"
+      },
+      {
+        "@id": "_:Nb3791046fd6347ab8e5dad2ea1d89a08"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200060800000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:N0a0a837a9d0a45779c827d56eb7d0013"
+      },
+      {
+        "@id": "_:N69ac9844591640fe9754bc1e40711728"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingPower"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 1024
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/5",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 49
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:Na0db54995d2f46979eb7180ed9458206"
+      },
+      {
+        "@id": "_:Nd86045a5fb144d5d9a04172e8f508c74"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:Ne0603931390a4d9fad7dc26e0ee3530e"
+      },
+      {
+        "@id": "_:N091b438622fa47d89b38c84c8075d527"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200061000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:N6481781a506b496696b7bd597a18285a"
+      },
+      {
+        "@id": "_:N604b96830e2444afa4bfa50d6b1e86d4"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingTemp"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 2048
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/4",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060010000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 2
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:Nc2651d6f08a346dfa83b6400fe2094e5"
+      },
+      {
+        "@id": "_:N6e28b07f35184a5a874c605268edb492"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:N1d45c603b9b94297936ee15bb1d4eee4"
+      },
+      {
+        "@id": "_:N9ab3a07cf7bd4179ac46c1aedae947fc"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200060020000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:Ncb1568c8a3ad4477bf94a9f0cbc9883e"
+      },
+      {
+        "@id": "_:Nd29c5145565242a193db57e109300646"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingPower"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 128
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/7",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200060000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 4
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:N9898d89791164eaca2fb1082b88dcd6c"
+      },
+      {
+        "@id": "_:N44dda3c1fecd41ba94c2e32d80edfeb2"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:Nf45a44bdeb22494aa48f06a2fc290a70"
+      },
+      {
+        "@id": "_:N889565fe9ae1479f80f70f87433c63e8"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200060040000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:N6803ba7d9546466b899d345ba3c8bb4e"
+      },
+      {
+        "@id": "_:N00ced9376c124a7da691658a04ca7427"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingTemp"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "0"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 256
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/rodinia-nw-lassen.csv/6",
+    "@type": [
+      "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+      {
+        "@value": "0x200061000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+      {
+        "@value": 49
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+      {
+        "@id": "_:Ne5173cdc530d4cca8fba46a6469827df"
+      },
+      {
+        "@id": "_:Nf0c2b9d35a9b4035b23325727bca852c"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+      {
+        "@id": "_:Nb39cf1886ca043dd93140439b6af822f"
+      },
+      {
+        "@id": "_:N55ef99c0e5d9442f86fc1b7c5b3579bc"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+      {
+        "@value": "0x200062000000"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+      {
+        "@id": "_:Nef4ab75bb1de4b208b53eefaa28f3e4a"
+      },
+      {
+        "@id": "_:N3efea1064122477b92ee654990ded8a6"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+      {
+        "@value": "FilesavingPower"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+      {
+        "@value": "1"
+      }
+    ],
+    "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+      {
+        "@value": 2048
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbda80c71035441eeb2958946fe048431",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncb1568c8a3ad4477bf94a9f0cbc9883e",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc5e6e1e8cc654a2aacb3aa145edb52d8",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3efea1064122477b92ee654990ded8a6",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "16384.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6481781a506b496696b7bd597a18285a",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "16576.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N509c3efa165248e88df427f86abdd81c",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N226a07bf9bb646e3b310f2db2ec8c3fa",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "1024.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N105269e59f8746dba24f730e268c53e8",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "256.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2357295234294958b163f35e356276fe",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N92237f07dddf41ab9c7d1167052aad86",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N955d6e10ac5541e098681a4cd5ee8b7b",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "4224.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb771f3b9f42e4307b17e776f4f499e9a",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nef4ab75bb1de4b208b53eefaa28f3e4a",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "16384.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N05529de4ae574d13adc23116e58bb7d9",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nea61f77ac4834dc3aa3616b60c7c1f49",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N637bca8b4850464b8fe8c09b2b3534db",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "1024.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0d899b87383c4a779368f6ae998a4eb4",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc2d2fad685bb481aad66e19c1292f781",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1d8e1662a40f491ebbbd8012ef2950cb",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N615a627da07a4473b8c7ab315f675db4",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nec16456c44ac46148d780732cec0f0ae",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne0603931390a4d9fad7dc26e0ee3530e",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N889565fe9ae1479f80f70f87433c63e8",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4033ad5aa7ec4367a84553db0df16cc9",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "65536.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9fa42229b1aa48818278613f08c16cd5",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf3d0345860d24c2991f39e06f99058ea",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N034919088ef749a3896d330701af288f",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N927865f29c1b48ac813eabefd00aab6c",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd86045a5fb144d5d9a04172e8f508c74",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc90c8bd0eb56411798ee5eb564b67496",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "192.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfbe29db76ba048b1b695850f902e4fc0",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5126c373f25940139ec5f0d034864bb4",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0b1390786ad24108ac9275487b90d9f7",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "262336.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na0db54995d2f46979eb7180ed9458206",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N44dda3c1fecd41ba94c2e32d80edfeb2",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb3791046fd6347ab8e5dad2ea1d89a08",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N333c5391741b47e79dbc3f815f81e6c1",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "128.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N84c76dc2134d47568a602d33a1d2c74d",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd024b5328fc1475f8c784e73f190af78",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "262336.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9898d89791164eaca2fb1082b88dcd6c",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0bd4c3cb75634292b71d7080415d2457",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "128.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N099ed68da9d14935821243a7a2a7e25d",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "65792.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne5173cdc530d4cca8fba46a6469827df",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb30e51c4046144a7a94332b305a748e1",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N00ced9376c124a7da691658a04ca7427",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "320.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbf77f6da549347b5a25a411441793635",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd29c5145565242a193db57e109300646",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N35582549aaae4229802b986118c355cd",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc14073fc487f4beaa4307b2e2fc50653",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N920e4b70a67e4a28bf70b3e2c0fc2ace",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0a0a837a9d0a45779c827d56eb7d0013",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "4224.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3f063928b9474a059579a410ce08ad75",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd42bbd5fc8f04991880e06c6ce8a3f87",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf45a44bdeb22494aa48f06a2fc290a70",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5511ca9874e4481b8bf95f45dabd42c8",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "262144.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9334cb533679433aa628d1b534d5a0da",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N22864a0636634dc09f63cb7b57682264",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "192.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6e28b07f35184a5a874c605268edb492",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "64.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na213936607504e8fbcf9ca14d825b5d0",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N38cbb503c16243e7bc2b5892f591d5fa",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbb645556c494478c99882f1284202480",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6ab4b2348d3d473d9c8927e5ea2dc985",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+      }
+    ],
+    "http://qudt.org/schema/qudt/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "0.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc3b6fc94d7274583a029ac1a4de45241",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/NanoSEC"
+      }
+    ]
+  }
+]

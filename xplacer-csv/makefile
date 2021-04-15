@@ -15,16 +15,10 @@ rodinia_3.1_cuda_hotspot_datalevel-lassen-plus-rowId.csv \
 rodinia_3.1_cuda_hotspot_kernellevel-lassen-plus-rowId.csv
 
 NTFILES = $(CSVFILES:.csv=.nt)
-JSONLDFILES = $(NTFILES:.nt=.jsonld)
+JSONLDFILES = $(NTFILES:.nt=.json)
 
 
 GITHUBRAWURL="https://raw.githubusercontent.com/HPC-FAIR/tarql/master/xplacer-csv/"
-
-#%.jsonld: %.nt
-#	curl -L "http://rdf-translator.appspot.com/convert/nt/json-ld/html/${GITHUBRAWURL}$<" --output $*.jsonld
-
-#%.nt: %.csv xplacer.sparql 
-#	tarql --ntriples xplacer.sparql $< > $*.nt
 
 ${NTFILES}:  
 	tarql --ntriples xplacer.sparql $(@:%.nt=%.csv) xplacer.sparql > $@
@@ -34,7 +28,7 @@ ${NTFILES}:
 # Use GET API and having github hosting nt files tentatively as a workaround for now.
 
 ${JSONLDFILES}:  
-	curl -L "http://rdf-translator.appspot.com/convert/nt/json-ld/html/${GITHUBRAWURL}$(@:%.jsonld=%.nt)" --output $@
+	curl -L "http://rdf-translator.appspot.com/convert/nt/json-ld/${GITHUBRAWURL}$(@:%.json=%.nt)" --output $@
 
 
 nt: ${NTFILES}
