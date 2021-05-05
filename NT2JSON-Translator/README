@@ -1,0 +1,11 @@
+Required software:
+1. RDFlib: https://github.com/RDFLib/rdflib
+   Installation: pip install rdflib
+2. RDFLib-jsonld: https://github.com/RDFLib/rdflib-jsonld
+   Installation: pip install rdflib-jsonld
+
+
+Running the tool:
+python3 NT2Jsonld.py INPUT_NT_FILE_NAME
+
+By default the output file has the same name as input with with .json extension.
