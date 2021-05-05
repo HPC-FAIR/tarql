@@ -8,4 +8,4 @@ Required software:
 Running the tool:
 python3 NT2Jsonld.py INPUT_NT_FILE_NAME
 
-By default the output file has the same name as input with with .json extension.
+By default the output file has the same name as input but with .json extension.
