@@ -21,7 +21,7 @@ JSONLDFILES = $(NTFILES:.nt=.json)
 GITHUBRAWURL="https://raw.githubusercontent.com/HPC-FAIR/tarql/master/xplacer-csv/"
 
 ${NTFILES}:  
-	tarql --ntriples xplacer.sparql $(@:%.nt=%.csv) xplacer.sparql > $@
+	tarql --ntriples xplacer.sparql $(@:%.nt=%.csv) > $@
 
 
 # rdf-translator service has issue taking content using the POST API.
