@@ -17,6 +17,7 @@ rodinia_3.1_cuda_hotspot_kernellevel-lassen-plus-rowId.csv
 NTFILES = $(CSVFILES:.csv=.nt)
 JSONLDFILES = $(NTFILES:.nt=.json)
 
+NTTRANSLATOR="../NT2JSON-Translator/NT2Jsonld.py"
 
 GITHUBRAWURL="https://raw.githubusercontent.com/HPC-FAIR/tarql/master/xplacer-csv/"
 
@@ -27,9 +28,11 @@ ${NTFILES}:
 # rdf-translator service has issue taking content using the POST API.
 # Use GET API and having github hosting nt files tentatively as a workaround for now.
 
-${JSONLDFILES}:  
-	curl -L "http://rdf-translator.appspot.com/convert/nt/json-ld/${GITHUBRAWURL}$(@:%.json=%.nt)" --output $@
+#${JSONLDFILES}:  
+#	curl -L "http://rdf-translator.appspot.com/convert/nt/json-ld/${GITHUBRAWURL}$(@:%.json=%.nt)" --output $@
 
+${JSONLDFILES}:  
+	python3 ${NTTRANSLATOR} $(@:%.json=%.nt) 
 
 nt: ${NTFILES}
 
