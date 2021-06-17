@@ -1,249 +1,57 @@
 [
     {
-        "@id": "http://example.org/rodinia-nw-lassen.csv/7",
-        "@type": [
-            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
-            {
-                "@value": "missile0.2M"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
-            {
-                "@value": 930816
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
-            {
-                "@id": "_:Nd475e4077d4c4e37bb9fa4d3ff793d21"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
-            {
-                "@id": "_:N0e3441208d264d179c0eefefe231043c"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
-            {
-                "@value": "0x200060000000"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
-            {
-                "@id": "_:Nb5753571f8d141769f7c58872138655a"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
-            {
-                "@value": "6"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
-            {
-                "@value": "h_areas"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
-            {
-                "@value": 111
-            }
-        ]
-    },
-    {
-        "@id": "_:Nb5753571f8d141769f7c58872138655a",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "884"
-            }
-        ]
-    },
-    {
-        "@id": "_:Nd475e4077d4c4e37bb9fa4d3ff793d21",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "1024.0"
-            }
-        ]
-    },
-    {
-        "@id": "_:N0e3441208d264d179c0eefefe231043c",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/NanoSEC"
-            }
-        ]
-    },
-    {
-        "@id": "http://example.org/rodinia-nw-lassen.csv/3",
-        "@type": [
-            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
-            {
-                "@value": "097K"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
-            {
-                "@value": 4663296
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
-            {
-                "@id": "_:N6cdca2f6f4ed447791cef7a204c5aba9"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
-            {
-                "@id": "_:Ne45aeabbd54f4de4962eda8e1c0c9268"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
-            {
-                "@value": "0x200060200000"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
-            {
-                "@id": "_:Nb2a4d692124c44e9b095bee021bc3eb4"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
-            {
-                "@value": "2"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
-            {
-                "@value": "h_normals"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
-            {
-                "@value": 111
-            }
-        ]
-    },
-    {
-        "@id": "_:Nb2a4d692124c44e9b095bee021bc3eb4",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "337"
-            }
-        ]
-    },
-    {
-        "@id": "_:N6cdca2f6f4ed447791cef7a204c5aba9",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "4608.0"
-            }
-        ]
-    },
-    {
-        "@id": "_:Ne45aeabbd54f4de4962eda8e1c0c9268",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/NanoSEC"
-            }
-        ]
-    },
-    {
         "@id": "http://example.org/rodinia-nw-lassen.csv/8",
         "@type": [
-            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#TableRow"
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#BeginMemoryAddress": [
             {
                 "@value": "missile0.2M"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#CPUPageFault": [
             {
                 "@value": 3723264
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#DeviceToHostTransfer": [
             {
-                "@id": "_:N583355d6644c4b14b8b01fd3e5688029"
+                "@id": "_:N4ec2d604178145f2a870071175748540"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#Duration": [
             {
-                "@id": "_:N9321a5ec09df4ad2b58ac7c9ae5dd216"
+                "@id": "_:Nbe3eeb65a8dc4113ab90be6e92d82c4f"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#EndMemoryAddress": [
             {
                 "@value": "0x200060200000"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#HostToDeviceTransfer": [
             {
-                "@id": "_:N3ce34dd81420411b933773f325e3eec0"
+                "@id": "_:N5d4178549ed44fd9bf8075d2d6aa5faf"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#array": [
             {
                 "@value": "7"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#id": [
             {
                 "@value": "h_elements_surrounding_elements"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#inputDataSize": [
             {
                 "@value": 111
             }
         ]
     },
     {
-        "@id": "_:N9321a5ec09df4ad2b58ac7c9ae5dd216",
+        "@id": "_:Nbe3eeb65a8dc4113ab90be6e92d82c4f",
         "@type": [
             "http://qudt.org/schema/qudt/QuantityValue"
         ],
@@ -254,24 +62,7 @@
         ]
     },
     {
-        "@id": "_:N583355d6644c4b14b8b01fd3e5688029",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "3648.0"
-            }
-        ]
-    },
-    {
-        "@id": "_:N3ce34dd81420411b933773f325e3eec0",
+        "@id": "_:N5d4178549ed44fd9bf8075d2d6aa5faf",
         "@type": [
             "http://qudt.org/schema/qudt/QuantityValue"
         ],
@@ -288,58 +79,7 @@
         ]
     },
     {
-        "@id": "http://example.org/rodinia-nw-lassen.csv/9",
-        "@type": [
-            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
-            {
-                "@value": "missile0.2M"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
-            {
-                "@value": 11169792
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
-            {
-                "@id": "_:N311e87f07cf3474188a37d312a8ebf89"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
-            {
-                "@id": "_:Nb6a4028d0d63430f90a3d953c8180a2c"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
-            {
-                "@value": "0x200060600000"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
-            {
-                "@id": "_:N381858c4eb924afa95cdac464bbf1f87"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
-            {
-                "@value": "8"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
-            {
-                "@value": "h_normals"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
-            {
-                "@value": 111
-            }
-        ]
-    },
-    {
-        "@id": "_:N311e87f07cf3474188a37d312a8ebf89",
+        "@id": "_:N4ec2d604178145f2a870071175748540",
         "@type": [
             "http://qudt.org/schema/qudt/QuantityValue"
         ],
@@ -351,215 +91,63 @@
         "http://qudt.org/schema/qudt/value": [
             {
                 "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "10944.0"
-            }
-        ]
-    },
-    {
-        "@id": "_:N381858c4eb924afa95cdac464bbf1f87",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "337"
-            }
-        ]
-    },
-    {
-        "@id": "_:Nb6a4028d0d63430f90a3d953c8180a2c",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/NanoSEC"
-            }
-        ]
-    },
-    {
-        "@id": "http://example.org/rodinia-nw-lassen.csv/6",
-        "@type": [
-            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
-            {
-                "@value": "193K"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
-            {
-                "@value": 9289728
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
-            {
-                "@id": "_:N4577f0c9a6044fe5b3bb04218f2549e5"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
-            {
-                "@id": "_:Ne0335f3117234ed0a6b1b645378198f8"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
-            {
-                "@value": "0x200060600000"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
-            {
-                "@id": "_:N68319e11d6b54453be3de1ade2f6303d"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
-            {
-                "@value": "5"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
-            {
-                "@value": "h_normals"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
-            {
-                "@value": 111
-            }
-        ]
-    },
-    {
-        "@id": "_:N68319e11d6b54453be3de1ade2f6303d",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "151"
-            }
-        ]
-    },
-    {
-        "@id": "_:Ne0335f3117234ed0a6b1b645378198f8",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/NanoSEC"
-            }
-        ]
-    },
-    {
-        "@id": "_:N4577f0c9a6044fe5b3bb04218f2549e5",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "9088.0"
+                "@value": "3648.0"
             }
         ]
     },
     {
         "@id": "http://example.org/rodinia-nw-lassen.csv/1",
         "@type": [
-            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#TableRow"
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#BeginMemoryAddress": [
             {
                 "@value": "097K"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#CPUPageFault": [
             {
                 "@value": 388608
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#DeviceToHostTransfer": [
             {
-                "@id": "_:Na2e3c893fcc54080adeb7a4d0dd8d13b"
+                "@id": "_:Ndd727dfa454246b4879d2b8b6b5c4fb8"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#Duration": [
             {
-                "@id": "_:N145d802b24594935aa68abbbe8a2272c"
+                "@id": "_:Nb755635712fa442baf33c22b4beafa2b"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#EndMemoryAddress": [
             {
                 "@value": "0x200060000000"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#HostToDeviceTransfer": [
             {
-                "@id": "_:N47ab2aef3a4742ceaa8ac512cfd7372c"
+                "@id": "_:N552d3fe87e1e4bc8be85bf62321a92bf"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#array": [
             {
                 "@value": "0"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#id": [
             {
                 "@value": "h_areas"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#inputDataSize": [
             {
                 "@value": 111
             }
         ]
     },
     {
-        "@id": "_:N145d802b24594935aa68abbbe8a2272c",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/NanoSEC"
-            }
-        ]
-    },
-    {
-        "@id": "_:N47ab2aef3a4742ceaa8ac512cfd7372c",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "674"
-            }
-        ]
-    },
-    {
-        "@id": "_:Na2e3c893fcc54080adeb7a4d0dd8d13b",
+        "@id": "_:Ndd727dfa454246b4879d2b8b6b5c4fb8",
         "@type": [
             "http://qudt.org/schema/qudt/QuantityValue"
         ],
@@ -576,250 +164,97 @@
         ]
     },
     {
-        "@id": "http://example.org/rodinia-nw-lassen.csv/2",
+        "@id": "_:N552d3fe87e1e4bc8be85bf62321a92bf",
         "@type": [
-            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+            "http://qudt.org/schema/qudt/QuantityValue"
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+        "http://qudt.org/schema/qudt/unit": [
             {
-                "@value": "097K"
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+        "http://qudt.org/schema/qudt/value": [
             {
-                "@value": 1554432
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
-            {
-                "@id": "_:N8ae799f654ab4ff3af0ace78802060fb"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
-            {
-                "@id": "_:N740b8e60b1ae44c2b88e146c4a77b609"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
-            {
-                "@value": "0x20006005ee00"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
-            {
-                "@id": "_:Nf96ec8f16c644990a5ee7178b2a234e8"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
-            {
-                "@value": "1"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
-            {
-                "@value": "h_elements_surrounding_elements"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
-            {
-                "@value": 111
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "674"
             }
         ]
     },
     {
-        "@id": "_:N740b8e60b1ae44c2b88e146c4a77b609",
+        "@id": "_:Nb755635712fa442baf33c22b4beafa2b",
         "@type": [
             "http://qudt.org/schema/qudt/QuantityValue"
         ],
         "http://qudt.org/schema/qudt/unit": [
             {
                 "@id": "http://qudt.org/vocab/unit/NanoSEC"
-            }
-        ]
-    },
-    {
-        "@id": "_:Nf96ec8f16c644990a5ee7178b2a234e8",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "51"
-            }
-        ]
-    },
-    {
-        "@id": "_:N8ae799f654ab4ff3af0ace78802060fb",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "1664.0"
-            }
-        ]
-    },
-    {
-        "@id": "http://example.org/rodinia-nw-lassen.csv/4",
-        "@type": [
-            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
-            {
-                "@value": "193K"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
-            {
-                "@value": 774144
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
-            {
-                "@id": "_:N4ada620a6cb54d55a1a9b22733318f05"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
-            {
-                "@id": "_:N7a21a27ee79c4ffaade87e41ca4b09c3"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
-            {
-                "@value": "0x200060000000"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
-            {
-                "@id": "_:Nfe51bb3597b74a868b1ca51decdbb35b"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
-            {
-                "@value": "3"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
-            {
-                "@value": "h_areas"
-            }
-        ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
-            {
-                "@value": 111
-            }
-        ]
-    },
-    {
-        "@id": "_:Nfe51bb3597b74a868b1ca51decdbb35b",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "636"
-            }
-        ]
-    },
-    {
-        "@id": "_:N7a21a27ee79c4ffaade87e41ca4b09c3",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/NanoSEC"
-            }
-        ]
-    },
-    {
-        "@id": "_:N4ada620a6cb54d55a1a9b22733318f05",
-        "@type": [
-            "http://qudt.org/schema/qudt/QuantityValue"
-        ],
-        "http://qudt.org/schema/qudt/unit": [
-            {
-                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
-            }
-        ],
-        "http://qudt.org/schema/qudt/value": [
-            {
-                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
-                "@value": "1024.0"
             }
         ]
     },
     {
         "@id": "http://example.org/rodinia-nw-lassen.csv/5",
         "@type": [
-            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#TableRow"
+            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#TableRow"
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#BeginMemoryAddress": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#BeginMemoryAddress": [
             {
                 "@value": "193K"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#CPUPageFault": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#CPUPageFault": [
             {
                 "@value": 3096576
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#DeviceToHostTransfer": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#DeviceToHostTransfer": [
             {
-                "@id": "_:Na9a3487f7e98463ea967c5663e5916d4"
+                "@id": "_:Ne3990a5101fe48578e8b253ccf6dbba5"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#Duration": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#Duration": [
             {
-                "@id": "_:N94b8030836744d908afbc11138f65c51"
+                "@id": "_:Nc275ddbff3034d26a966254874cb765b"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#EndMemoryAddress": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#EndMemoryAddress": [
             {
                 "@value": "0x200060200000"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#HostToDeviceTransfer": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#HostToDeviceTransfer": [
             {
-                "@id": "_:Nbd99397d4ac94f408fa2eadeac8deaae"
+                "@id": "_:N1e509dfe5146432c9e97fec4023a2ab4"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#array": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#array": [
             {
                 "@value": "4"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#id": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#id": [
             {
                 "@value": "h_elements_surrounding_elements"
             }
         ],
-        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#inputDataSize": [
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#inputDataSize": [
             {
                 "@value": 111
             }
         ]
     },
     {
-        "@id": "_:Na9a3487f7e98463ea967c5663e5916d4",
+        "@id": "_:Nc275ddbff3034d26a966254874cb765b",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/NanoSEC"
+            }
+        ]
+    },
+    {
+        "@id": "_:Ne3990a5101fe48578e8b253ccf6dbba5",
         "@type": [
             "http://qudt.org/schema/qudt/QuantityValue"
         ],
@@ -836,7 +271,7 @@
         ]
     },
     {
-        "@id": "_:Nbd99397d4ac94f408fa2eadeac8deaae",
+        "@id": "_:N1e509dfe5146432c9e97fec4023a2ab4",
         "@type": [
             "http://qudt.org/schema/qudt/QuantityValue"
         ],
@@ -853,13 +288,578 @@
         ]
     },
     {
-        "@id": "_:N94b8030836744d908afbc11138f65c51",
+        "@id": "http://example.org/rodinia-nw-lassen.csv/3",
+        "@type": [
+            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#TableRow"
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#BeginMemoryAddress": [
+            {
+                "@value": "097K"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#CPUPageFault": [
+            {
+                "@value": 4663296
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#DeviceToHostTransfer": [
+            {
+                "@id": "_:Nf964632d64ce4a92b72044272ce95fc7"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#Duration": [
+            {
+                "@id": "_:N9fc059d334304e33b12e8360a9e32da9"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#EndMemoryAddress": [
+            {
+                "@value": "0x200060200000"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#HostToDeviceTransfer": [
+            {
+                "@id": "_:Nafd90fc4aad24e92b8d160a08bf93d66"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#array": [
+            {
+                "@value": "2"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#id": [
+            {
+                "@value": "h_normals"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#inputDataSize": [
+            {
+                "@value": 111
+            }
+        ]
+    },
+    {
+        "@id": "_:Nf964632d64ce4a92b72044272ce95fc7",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "4608.0"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nafd90fc4aad24e92b8d160a08bf93d66",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "337"
+            }
+        ]
+    },
+    {
+        "@id": "_:N9fc059d334304e33b12e8360a9e32da9",
         "@type": [
             "http://qudt.org/schema/qudt/QuantityValue"
         ],
         "http://qudt.org/schema/qudt/unit": [
             {
                 "@id": "http://qudt.org/vocab/unit/NanoSEC"
+            }
+        ]
+    },
+    {
+        "@id": "http://example.org/rodinia-nw-lassen.csv/2",
+        "@type": [
+            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#TableRow"
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#BeginMemoryAddress": [
+            {
+                "@value": "097K"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#CPUPageFault": [
+            {
+                "@value": 1554432
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#DeviceToHostTransfer": [
+            {
+                "@id": "_:Nfdc89eb33359413f9a20a4ef0ff74444"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#Duration": [
+            {
+                "@id": "_:Na1b8085e3ad74e0facc52be1d388890a"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#EndMemoryAddress": [
+            {
+                "@value": "0x20006005ee00"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#HostToDeviceTransfer": [
+            {
+                "@id": "_:Naaf6f589dca24cf3bf6013ff219f349d"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#array": [
+            {
+                "@value": "1"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#id": [
+            {
+                "@value": "h_elements_surrounding_elements"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#inputDataSize": [
+            {
+                "@value": 111
+            }
+        ]
+    },
+    {
+        "@id": "_:Na1b8085e3ad74e0facc52be1d388890a",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/NanoSEC"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nfdc89eb33359413f9a20a4ef0ff74444",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "1664.0"
+            }
+        ]
+    },
+    {
+        "@id": "_:Naaf6f589dca24cf3bf6013ff219f349d",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "51"
+            }
+        ]
+    },
+    {
+        "@id": "http://example.org/rodinia-nw-lassen.csv/4",
+        "@type": [
+            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#TableRow"
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#BeginMemoryAddress": [
+            {
+                "@value": "193K"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#CPUPageFault": [
+            {
+                "@value": 774144
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#DeviceToHostTransfer": [
+            {
+                "@id": "_:Nf3de2461b56749d3b966250fcfcc66e1"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#Duration": [
+            {
+                "@id": "_:Na530a38c04f54d118b49c12669bf4414"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#EndMemoryAddress": [
+            {
+                "@value": "0x200060000000"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#HostToDeviceTransfer": [
+            {
+                "@id": "_:N0df59a575c464b918d4738a4b1e4565a"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#array": [
+            {
+                "@value": "3"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#id": [
+            {
+                "@value": "h_areas"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#inputDataSize": [
+            {
+                "@value": 111
+            }
+        ]
+    },
+    {
+        "@id": "_:Na530a38c04f54d118b49c12669bf4414",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/NanoSEC"
+            }
+        ]
+    },
+    {
+        "@id": "_:N0df59a575c464b918d4738a4b1e4565a",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "636"
+            }
+        ]
+    },
+    {
+        "@id": "_:Nf3de2461b56749d3b966250fcfcc66e1",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "1024.0"
+            }
+        ]
+    },
+    {
+        "@id": "http://example.org/rodinia-nw-lassen.csv/9",
+        "@type": [
+            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#TableRow"
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#BeginMemoryAddress": [
+            {
+                "@value": "missile0.2M"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#CPUPageFault": [
+            {
+                "@value": 11169792
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#DeviceToHostTransfer": [
+            {
+                "@id": "_:Neb2d70abc7ec457582b747f386c75012"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#Duration": [
+            {
+                "@id": "_:N8ba0f0c6205d42dbb1187f3f4449f2fc"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#EndMemoryAddress": [
+            {
+                "@value": "0x200060600000"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#HostToDeviceTransfer": [
+            {
+                "@id": "_:N0cf812f070fa486d953f33ad78c79242"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#array": [
+            {
+                "@value": "8"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#id": [
+            {
+                "@value": "h_normals"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#inputDataSize": [
+            {
+                "@value": 111
+            }
+        ]
+    },
+    {
+        "@id": "_:N8ba0f0c6205d42dbb1187f3f4449f2fc",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/NanoSEC"
+            }
+        ]
+    },
+    {
+        "@id": "_:Neb2d70abc7ec457582b747f386c75012",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "10944.0"
+            }
+        ]
+    },
+    {
+        "@id": "_:N0cf812f070fa486d953f33ad78c79242",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "337"
+            }
+        ]
+    },
+    {
+        "@id": "http://example.org/rodinia-nw-lassen.csv/6",
+        "@type": [
+            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#TableRow"
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#BeginMemoryAddress": [
+            {
+                "@value": "193K"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#CPUPageFault": [
+            {
+                "@value": 9289728
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#DeviceToHostTransfer": [
+            {
+                "@id": "_:Ned30f27e90904762acb24c8f4d195bdc"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#Duration": [
+            {
+                "@id": "_:N301eb71a042e4c67ac6b652afe40330b"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#EndMemoryAddress": [
+            {
+                "@value": "0x200060600000"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#HostToDeviceTransfer": [
+            {
+                "@id": "_:N233b89c1524d4275ba646b5c0c91ba4a"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#array": [
+            {
+                "@value": "5"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#id": [
+            {
+                "@value": "h_normals"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#inputDataSize": [
+            {
+                "@value": 111
+            }
+        ]
+    },
+    {
+        "@id": "_:Ned30f27e90904762acb24c8f4d195bdc",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "9088.0"
+            }
+        ]
+    },
+    {
+        "@id": "_:N233b89c1524d4275ba646b5c0c91ba4a",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "151"
+            }
+        ]
+    },
+    {
+        "@id": "_:N301eb71a042e4c67ac6b652afe40330b",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/NanoSEC"
+            }
+        ]
+    },
+    {
+        "@id": "http://example.org/rodinia-nw-lassen.csv/7",
+        "@type": [
+            "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#TableRow"
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#BeginMemoryAddress": [
+            {
+                "@value": "missile0.2M"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#CPUPageFault": [
+            {
+                "@value": 930816
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#DeviceToHostTransfer": [
+            {
+                "@id": "_:Ne07f753d8bf3491186294e8997b1f564"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#Duration": [
+            {
+                "@id": "_:N5d49b5b6862243df9ab832bb5035ba96"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#EndMemoryAddress": [
+            {
+                "@value": "0x200060000000"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#HostToDeviceTransfer": [
+            {
+                "@id": "_:N96fb9284179f46a3b3bf67852f017769"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#array": [
+            {
+                "@value": "6"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#id": [
+            {
+                "@value": "h_areas"
+            }
+        ],
+        "https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#inputDataSize": [
+            {
+                "@value": 111
+            }
+        ]
+    },
+    {
+        "@id": "_:N96fb9284179f46a3b3bf67852f017769",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "884"
+            }
+        ]
+    },
+    {
+        "@id": "_:N5d49b5b6862243df9ab832bb5035ba96",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/NanoSEC"
+            }
+        ]
+    },
+    {
+        "@id": "_:Ne07f753d8bf3491186294e8997b1f564",
+        "@type": [
+            "http://qudt.org/schema/qudt/QuantityValue"
+        ],
+        "http://qudt.org/schema/qudt/unit": [
+            {
+                "@id": "http://qudt.org/vocab/unit/KiloBYTE"
+            }
+        ],
+        "http://qudt.org/schema/qudt/value": [
+            {
+                "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+                "@value": "1024.0"
             }
         ]
     }
