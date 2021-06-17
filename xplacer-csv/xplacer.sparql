@@ -7,7 +7,7 @@
 #          The HPC ontology is also connected to other popular ones if users want to be exposed to more namespaces as they desire.
 #
 # the actual ontology is defined in the following URL
-PREFIX hpc: <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.owl#>
+PREFIX hpc: <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 # Using ontologies from QUDT
