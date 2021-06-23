@@ -1,0 +1,60 @@
+PREFIX hpc: <https://github.com/HPC-FAIR/HPC-Ontology/blob/main/hpc-ontology.ttl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Using ontologies from QUDT
+PREFIX qudt: <http://qudt.org/schema/qudt/> 
+PREFIX unit: <http://qudt.org/vocab/unit/>
+PREFIX schema: <https://schema.org/>
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX tableurl: <http://example.org/rodinia-nw-lassen.csv#>
+
+
+CONSTRUCT {
+  ?URI a hpc:TableRow;
+    hpc:Top500Rank ?Rank;
+    hpc:Top500PrevRank ?Previous_Rank;
+    hpc:Top500FirstAppeearance ?First_Appearance;
+    hpc:Top500FirstRank ?First_Rank;
+    hpc:Top500Name ?Name;
+    hpc:Top500Computer ?Computer;
+    hpc:Top500Site ?Site;
+    hpc:Top500Manufacturer ?Manufacturer;
+    schema:Country ?Country;
+    hpc:Top500Year ?Year;
+    hpc:Top500Segment ?Segment;
+    hpc:Top500TotalCores ?Total_Cores;
+    hpc:Top500CoProcCores ?Accelerator_Co_Processor_Cores;
+    hpc:Top500RMax ?Rmax__TFlop_s_;
+    hpc:Top500Rpeak ?Rpeak__TFlop_s_;
+    hpc:Top500Nmax ?Nmax;
+    hpc:Top500Nhalf ?Nhalf;
+    hpc:Top500HPCG ?HPCG__TFlop_s_;
+    hpc:Top500PowerKW ?Power__kW_;
+    hpc:Top500PowerSrc ?Power_Source;
+    hpc:Top500PowerEfficienty ?Power_Efficiency__GFlops_Watts_;
+    hpc:Top500Memory ?Memory;
+    hpc:Top500Architecture ?Architecture;
+    hpc:Top500Processor ?Processor;
+    hpc:Top500ProcessorTechnology ?Processor_Technology;
+    hpc:Top500ProcessorSpeed ?Processor_Speed__MHz_;
+    hpc:Top500OS ?Operating_System;
+    hpc:Top500OSFamily ?OS_Family;
+    hpc:Top500AcceleratorCoProcessor ?Accelerator_Co_Processor;
+    hpc:Top500CorePerSocket ?Cores_per_Socket;
+    hpc:Top500ProcessorGen ?Processor_Generation;
+    hpc:Top500SysModel ?System_Model;
+    hpc:Top500SysFamily ?System_Family;
+    hpc:Top500InterconnectFamily ?Interconnect_Family;
+    hpc:Top500Interconnect ?Interconnect;
+    hpc:Top500Continent ?Continent;
+    hpc:Top500SiteID ?Site_ID;
+    hpc:Top500SystemID ?System_ID;
+} 
+
+
+FROM <file:TOP500_202011.csv>
+
+WHERE {
+  BIND (URI(CONCAT('http://example.org/rodinia-nw-lassen.csv/', ?No)) AS ?URI)
+}
